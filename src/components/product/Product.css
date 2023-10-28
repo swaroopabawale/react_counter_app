@@ -1,0 +1,38 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 15px;
+}
+
+.badge {
+    padding: 10px 15px;
+    width: 30px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.product-img {
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.btn {
+    all: unset;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: rgb(204, 7, 7);
+}
+
+.btn-success {
+    background-color: rgb(10, 151, 10);
+}
